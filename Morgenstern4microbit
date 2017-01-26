@@ -3,17 +3,17 @@ from microbit import speech
 from microbit import random
 
 location = random.choice(["einem Kiesel", "einer Wiese", "dem Zwiesel"])
-action = random.choice(["saß", "stand", "lag", "schlief"])
+action = random.choice(["sass", "stand", "lag", "schlief"])
 subj = (["Wiesel"])
 prop = random.choice(["Bachgeriesel", "Schneegriesel",
-                     "einer Pfütze Diesel"])
+                     "einer Pfuetze Diesel"])
 clue = random.choice(["das Mondkalb", "der Nachtalb"])
 attitude = random.choice(["um des Reimes Willen", "um einfach mal zu chillen"])
 
 poem = [
-    "Das ästhetische Wiesel frei nach Christian Morgenstern",
+    "Das aesthetische Wiesel frei nach Christian Morgenstern",
     "Ein {}".format(subj),
-    "saß auf {}".format(action),
+    "{} auf".format(action),
     "inmitten {}".format(prop),
     "Wisst ihr, weshalb?",
     "{} verriet es mir im Stillen:".format(clue),
